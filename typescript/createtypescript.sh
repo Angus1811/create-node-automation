@@ -6,7 +6,7 @@ if [ $# -eq 0 ]; then
 fi
 
 project_name="$1"
-path="/home/anguscrighton/Documents/code/$project_name"
+path="/home/$USER/Documents/code/$project_name"
 
 mkdir "$path"
 cd "$path"

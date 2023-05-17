@@ -6,7 +6,7 @@ clone the repo: `https://github.com/Angus1811/create-node-automation.git`
 
 you will need to move to the `/usr/local/bin` directory
 
-then...
+*then...*
 
 ## how to run:
 

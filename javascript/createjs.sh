@@ -12,6 +12,8 @@ path="/home/$USER/Documents/code/$project_name"
 
 echo "checking files"
 
+
+#check if directory exists
 if [ -d "/home/$USER/Documents" ]; then
     if [ -d "/home/$USER/Documents/code" ]; then
         if [ -d "$path" ]; then

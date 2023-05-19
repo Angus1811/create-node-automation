@@ -8,8 +8,6 @@ fi
 project_name="$1"
 path="/home/$USER/Documents/code/$project_name"
 
-path="/home/$USER/Documents/code/$project_name"
-
 echo "checking files"
 
 

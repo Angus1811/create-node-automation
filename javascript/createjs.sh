@@ -18,5 +18,8 @@ cd "$path"
 
 git clone "https://github.com/Angus1811/node-template.git"
 
+mv ./node-template/* .
+rm -rf "node-template" 
+
 echo "Created project: $project_name"
 code "$path"

@@ -16,5 +16,9 @@ mkdir "$path" -p
 cd "$path"
 
 git clone "https://github.com/Angus1811/typescript-template.git"
+
+mv ./typescript-template/* .
+rm -rf "typescript-template" 
+
 echo "Created project: $project_name"
 code "$path"
